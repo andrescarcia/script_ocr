@@ -1,6 +1,8 @@
 # Manual de Instalación del Programa OCR
 
-Este documento proporciona instrucciones detalladas sobre cómo configurar y ejecutar el programa OCR (Reconocimiento Óptico de Caracteres) tanto en sistemas operativos Windows como en Linux.
+Este documento proporciona instrucciones detalladas sobre cómo configurar y ejecutar el programa OCR (Reconocimiento Óptico de Caracteres) tanto en sistemas operativos Windows como en Linux. 
+# Nota importante
+Se recomienda el uso de una distro Linux, Windows suele dar problemas con Tesseract
 
 ## Requisitos del Sistema
 
