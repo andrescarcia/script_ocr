@@ -25,24 +25,24 @@ pip install pillow pandas pytesseract tqdm
 ```
 Si tiene más de una versión de Python instalada, puede que necesite utilizar pip3.
 
-#Instalación en Linux
-##Instalación de Tesseract OCR
+# Instalación en Linux
+## Instalación de Tesseract OCR
 Abra una terminal y ejecute:
 ```shell
 sudo apt update
 sudo apt install tesseract-ocr
 sudo apt install tesseract-ocr-spa
 ```
-##Instalación de Dependencias de Python
+## Instalación de Dependencias de Python
 En la terminal, ejecute:
 ```shell
 pip3 install pillow pandas pytesseract tqdm
 ```
-#Configuración del Programa OCR
+# Configuración del Programa OCR
 Guarde el script de Python proporcionado en un archivo con la extensión .py, por ejemplo, script_ocr.py.
 
-#Ejecución del Programa OCR
-##En Windows
+# Ejecución del Programa OCR
+## En Windows
 1. Abra la línea de comandos y navegue hasta la carpeta donde guardó el script.
 ```shell
 cd C:\Users\TuUsuario\DirectorioDelScript
@@ -51,7 +51,7 @@ cd C:\Users\TuUsuario\DirectorioDelScript
 ```shell
 python script_ocr.py
 ```
-#En Linux
+# En Linux
 Abra una terminal y navegue hasta la carpeta donde guardó el script.
 ```shell
 cd /ruta/al/directorio/del/script
@@ -62,7 +62,7 @@ python3 script_ocr.py
 ```
 Siga las instrucciones en la terminal, proporcionando la ruta de la carpeta de imágenes y la ruta de salida del archivo Excel cuando se le solicite.
 
-#Notas Adicionales
+# Notas Adicionales
 Si encuentra errores relacionados con la ruta de Tesseract OCR en Windows, puede que necesite especificarla manualmente en el script. Encuentre la ruta de instalación de Tesseract (usualmente C:\Program Files\Tesseract-OCR) y añada la siguiente línea al principio del script:
 ```shell
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
