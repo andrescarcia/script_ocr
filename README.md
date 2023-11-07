@@ -2,7 +2,7 @@
 
 Este documento proporciona instrucciones detalladas sobre cómo configurar y ejecutar el programa OCR (Reconocimiento Óptico de Caracteres) tanto en sistemas operativos Windows como en Linux. 
 # Nota importante
-Se recomienda el uso de una distro Linux, Windows suele dar problemas con Tesseract
+Se recomienda el uso de una distro Linux, Windows suele dar problemas con Tesseract. Ademas, se recomienda usar imagenes de pequeño tamaño, el programa es CPU intensivo, y estandarizar lo que se desea extraer de las imagenes es primordial para el uso del script.
 
 ## Requisitos del Sistema
 
